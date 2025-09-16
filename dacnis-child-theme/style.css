@@ -1,0 +1,67 @@
+/*! 
+ Theme Name:   Dacnis
+ Version:      1.0.28
+ Template:     dacnis
+ Description:  Dacnis is an innovative,  easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites. Dacnis is mainly designed for small businesses, startups, or personal portfolio websites and works perfectly with Kubio Page Builder which enriches the WordPress block editor with a variety of new blocks and advanced styling options to give you full design freedom.
+ Author:       Extend Themes
+ Author URI:   https://kubiobuilder.com
+ License:      GNU General Public License version 3
+ License URI:  http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+ Tags:         entertainment, food-and-drink, portfolio, one-column, two-columns, grid-layout, custom-header, custom-menu, custom-logo, full-width-template, theme-options, translation-ready, featured-images, threaded-comments
+ Text Domain:  dacnis
+ Requires PHP: 7.1
+*/
+
+
+/* skulle gøre så copyright block bliver display none, det virker under undersøg men jeg kan ikke få det til at virke her så jeg giver op jeg har prøvet med important*/
+.wp-block-kubio-footer [data-kubio]:not([class*=h-col-]),.wp-block-kubio-footer.wp-block {
+    max-width: unset;
+    display: none;
+}
+.kubio-footer-copyright {
+    display: none;
+}
+
+#kubio .style-vP0mYzy99sE-outer {
+    display: none;
+}
+.wp-block-kubio-footer.wp-block, .wp-block-kubio-footer [data-kubio]:not([class*=h-col-]) {
+    display: none;
+}
+
+[data-kubio] article:after, [data-kubio] article:before, [data-kubio] aside:after, [data-kubio] aside:before, [data-kubio] details:after, [data-kubio] details:before, [data-kubio] div:after, [data-kubio] div:before, [data-kubio] figcaption:after, [data-kubio] figcaption:before, [data-kubio] figure:after, [data-kubio] figure:before, [data-kubio] footer:after, [data-kubio] footer:before, [data-kubio] header:after, [data-kubio] header:before, [data-kubio] hgroup:after, [data-kubio] hgroup:before, [data-kubio] menu:after, [data-kubio] menu:before, [data-kubio] nav:after, [data-kubio] nav:before, [data-kubio] section:after, [data-kubio] section:before, [data-kubio] ul:after, [data-kubio] ul:before {
+
+    display: none;
+}
+
+article[data-kubio]:after, article[data-kubio]:before, aside[data-kubio]:after, aside[data-kubio]:before, details[data-kubio]:after, details[data-kubio]:before, div[data-kubio]:after, div[data-kubio]:before, figcaption[data-kubio]:after, figcaption[data-kubio]:before, figure[data-kubio]:after, figure[data-kubio]:before, footer[data-kubio]:after, footer[data-kubio]:before, header[data-kubio]:after, header[data-kubio]:before, hgroup[data-kubio]:after, hgroup[data-kubio]:before, menu[data-kubio]:after, menu[data-kubio]:before, nav[data-kubio]:after, nav[data-kubio]:before, section[data-kubio]:after, section[data-kubio]:before, ul[data-kubio]:after, ul[data-kubio]:before {
+
+    display: none;
+}
+
+
+/*farve på text*/
+
+/* h1 farve*/
+h1 {
+    color: #474D36 !important; 
+}
+
+/* h2 farve "hvem er jeg"*/
+h2 {
+    color: #474D36 !important;
+}
+
+/*h3 farve*/
+h3 {
+    color: #7f8a69 !important;
+}
+ /*h5 farve*/
+h5 {
+    color: #7F8A69 !important;
+}
+
+/*p farve*/
+p {
+    color: black !important;
+}
